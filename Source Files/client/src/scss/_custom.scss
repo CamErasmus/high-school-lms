@@ -1,0 +1,164 @@
+// Here you can add other styles
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.fc-day-today {
+  background-color: #e9ecef !important;
+}
+
+input:read-only {
+  background-color: #ced4da !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #276efd;
+}
+
+.form-select:focus {
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #276efd;
+}
+
+.column-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*All Links */
+a {
+  color: #276efd;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #276efd;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #276efd;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #276efd;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #276efd;
+  text-decoration: none;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.active-content {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.bg-logo {
+  background-color: #bf332e;
+}
+
+.bg-primary {
+  background-color: #276efd !important;
+}
+
+.bg-secondary {
+  background-color: #858796 !important;
+}
+
+.bg-success {
+  background-color: #1cc88a !important;
+}
+
+.bg-info {
+  background-color: #36b9cc !important;
+}
+
+.bg-warning {
+  background-color: #f6c23e !important;
+}
+
+.bg-danger {
+  background-color: #e74a3b !important;
+}
+
+.bg-light {
+  background-color: #f8f9fc9f !important;
+}
+
+.bg-dark {
+  background-color: #5a5c69 !important;
+}
+
+.bg-gradient-primary {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+
+.bg-gradient-secondary {
+  background-color: #858796;
+  background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
+  background-size: cover;
+}
+
+.bg-gradient-success {
+  background-color: #1cc88a;
+  background-image: linear-gradient(180deg, #1cc88a 10%, #13855c 100%);
+  background-size: cover;
+}
+
+.bg-gradient-info {
+  background-color: #36b9cc;
+  background-image: linear-gradient(180deg, #36b9cc 10%, #258391 100%);
+  background-size: cover;
+}
+
+.bg-gradient-warning {
+  background-color: #f6c23e;
+  background-image: linear-gradient(180deg, #f6c23e 10%, #dda20a 100%);
+  background-size: cover;
+}
+
+.bg-gradient-danger {
+  background-color: #e74a3b;
+  background-image: linear-gradient(180deg, #e74a3b 10%, #be2617 100%);
+  background-size: cover;
+}
+
+.bg-gradient-light {
+  background-color: #f8f9fc;
+  background-image: linear-gradient(180deg, #f8f9fc 10%, #c2cbe5 100%);
+  background-size: cover;
+}
+
+.bg-gradient-dark {
+  background-color: #5a5c69;
+  background-image: linear-gradient(180deg, #5a5c69 10%, #373840 100%);
+  background-size: cover;
+}
